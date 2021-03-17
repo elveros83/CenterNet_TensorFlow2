@@ -42,10 +42,10 @@ class Config:
 
     # network architecture
 
-    backbone_name = "D0"
+    backbone_name = "resnet_50"
     # can be selected from: resnet_18, resnet_34, resnet_50, resnet_101, resnet_152, D0~D7
 
-    downsampling_ratio = 8  # efficientdet: 8, others: 4
+    downsampling_ratio = 4  # efficientdet: 8, others: 4
 
     # efficientdet
     width_coefficient = {"D0": 1.0, "D1": 1.0, "D2": 1.1, "D3": 1.2, "D4": 1.4, "D5": 1.6, "D6": 1.8, "D7": 1.8}

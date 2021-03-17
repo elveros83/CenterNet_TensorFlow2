@@ -42,7 +42,7 @@ class Config:
 
     # network architecture
 
-    backbone_name = "resnet_50"
+    backbone_name = "resnet_18"
     # can be selected from: resnet_18, resnet_34, resnet_50, resnet_101, resnet_152, D0~D7
 
     downsampling_ratio = 4  # efficientdet: 8, others: 4
